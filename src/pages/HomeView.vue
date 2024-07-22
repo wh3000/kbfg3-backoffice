@@ -9,7 +9,7 @@ defineProps({
 
 <template>
     <div>
-       eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeehome
+       home
     </div>
 </template>
 <style>

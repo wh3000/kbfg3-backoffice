@@ -5,7 +5,7 @@ import SideNav from './components/layout/SideNav.vue'
 
 import {useRouter} from 'vue-router'
 
-
+import '@headlessui/vue'
 
 const state = reactive({
   router : useRouter()
@@ -39,7 +39,7 @@ const state = reactive({
 </template>
 
 <style scoped>
-header {
+/* header {
   line-height: 1.5;
 }
 
@@ -64,5 +64,5 @@ header {
     place-items: flex-start;
     flex-wrap: wrap;
   }
-}
+} */
 </style>

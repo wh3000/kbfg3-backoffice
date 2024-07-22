@@ -8,8 +8,8 @@ defineProps({
 </script>
 
 <template>
-    <div>
-        header 작업중
+    <div class="h-24 bg-black">
+        header
     </div>
 </template>
 <style>
