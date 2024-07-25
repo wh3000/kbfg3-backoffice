@@ -5,7 +5,6 @@ import SideNav from './components/layout/SideNav.vue'
 
 import {useRouter} from 'vue-router'
 
-import '@headlessui/vue'
 
 const state = reactive({
   router : useRouter()
@@ -24,8 +23,8 @@ const state = reactive({
       <div class="admin-wrap">
 
       <HeaderMenu></HeaderMenu>
-      <div class="container">
         <SideNav></SideNav>
+      <div class="container">
         <router-view></router-view>
       </div>
     </div>

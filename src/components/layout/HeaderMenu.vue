@@ -8,8 +8,11 @@ defineProps({
 </script>
 
 <template>
-    <div class="h-24 bg-black">
+    <div class="top-menu">
         header
+      <div class="sub-menu">
+        submenu
+      </div>
     </div>
 </template>
 <style>

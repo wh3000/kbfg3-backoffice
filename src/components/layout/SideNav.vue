@@ -67,12 +67,12 @@ defineProps({
     <!-- <aside class="list-area" v-if="store.account.mngCd === 'MASTER'"> -->
     <aside class="list-area">
         <div>
-            SideNav 작업중
+            SideNav
         </div>
-        <h2 class="list-tit">공통관리</h2>
+        <h2 class="list-tit">CommonCode</h2>
     <ul class="categoty-list">
       <li class="on">
-        <router-link to="/manage/common-code/codes">공통코드관리</router-link>
+        <router-link to="/manage/common-code/codes">Common Codes</router-link>
       </li>
     </ul>
 
