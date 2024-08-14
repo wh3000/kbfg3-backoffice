@@ -71,7 +71,10 @@ defineProps({
         </div>
         <h2 class="list-tit">CommonCode</h2>
     <ul class="categoty-list">
-      <li class="on">
+      <li class="ui-menu-item on">
+        <router-link to="/manage/common-code/code-groups">Code Groups</router-link>
+      </li>
+      <li class="ui-menu-item">
         <router-link to="/manage/common-code/codes">Common Codes</router-link>
       </li>
     </ul>

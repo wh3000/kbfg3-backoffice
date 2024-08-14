@@ -23,10 +23,12 @@ const state = reactive({
       <div class="admin-wrap">
 
       <HeaderMenu></HeaderMenu>
-        <SideNav></SideNav>
-      <div class="container">
-        <router-view></router-view>
-      </div>
+        <div class="main">
+          <SideNav></SideNav>
+          <div class="container">
+            <router-view></router-view>
+          </div>
+        </div>
     </div>
 
     
